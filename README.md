@@ -1,7 +1,8 @@
 # rucl: RUst CurL!
 
-`rucl` is a tool inspired in `curl` CLI and built for educational purpose.
+`rucl` is a tool inspired in `curl` written in Rust and built for educational purposes.
 
+![rucl Architecture](./docs/img/RuclArchitecture.svg)
 
 ## Basic Features
 
