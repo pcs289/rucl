@@ -1,6 +1,7 @@
 [package]
 name = "rucl"
 authors = ["Pau de la Cuesta"]
+description = "`rucl` is a tool inspired in `curl` written in Rust and built for educational purposes."
 version = "0.1.0"
 edition = "2021"
 
@@ -21,3 +22,11 @@ dotenv = "0.15.0"
 colored = "2.0.4"
 env_logger = "0.10.0"
 log = "0.4.20"
+ctrlc = "3.4.1"
+
+[profile.release]
+strip = true  # Automatically strip symbols from the binary.
+opt-level = "z"  # Optimize for size.
+lto = true # Enable Link Time Optimization
+codegen-units = 1
+panic = "abort"
