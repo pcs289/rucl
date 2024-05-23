@@ -66,6 +66,31 @@ Options:
   -V, --version                              Print version
 ```
 
+## Installation
+
+### Download pre-built Binaries
+
+1. Visit [Release](https://github.com/pcs289/rucl/releases) page
+2. Download pre-built binary based on your platform:
+    - Windows (`rucl.exe`)
+    - Linux AMD64 (`rucl_amd64`)
+    - MacOS (`rucl_darwin`)
+
+### Build from Source
+
+__Requirements__
+- [Cargo - Rust Build System](https://doc.rust-lang.org/cargo/getting-started/installation.html)
+
+__Steps__
+1. Clone repository
+```shell
+git clone https://github.com/pcs289/rucl.git
+```
+2. Compile source code
+```shell
+cd rucl
+cargo build --release
+```
 
 ### All `curl` Options
 
